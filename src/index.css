@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Outfit", system-ui, -apple-system, sans-serif;
+  --font-nepali: "Noto Sans Devanagari", sans-serif;
+  
+  --color-gold: #D4A017;
+  --color-gold-bright: #F5C842;
+  --color-baniya-dark: #080604;
+  --color-baniya-card: #100C08;
+  --color-baniya-deep: #1A1208;
+}
+
+/* Custom styles for gorgeous animations & details */
+@keyframes ticker {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.ticker-animate {
+  animation: ticker 30s linear infinite;
+}
+
+/* Scrollbar styling for professional modern look */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #080604;
+}
+::-webkit-scrollbar-thumb {
+  background: #3a2b1a;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D4A017;
+}
+
+/* Smooth active focus styling */
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: #D4A017;
+  box-shadow: 0 0 0 2px rgba(212, 160, 23, 0.15);
+}
+
+/* Markdown styling for the AI Chat responses */
+.markdown-body p {
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+.markdown-body ul, .markdown-body ol {
+  margin-left: 1.25rem;
+  margin-bottom: 0.75rem;
+  list-style-type: disc;
+}
+.markdown-body li {
+  margin-bottom: 0.25rem;
+}
+.markdown-body strong {
+  color: #F5C842;
+  font-weight: 600;
+}
+.markdown-body code {
+  font-family: inherit;
+  background: rgba(212, 160, 23, 0.15);
+  color: #F5C842;
+  padding: 1px 4px;
+  border-radius: 4px;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Baniyaempire",
+  "description": "Digital landscape of Myagdi and the Baniya Empire, connecting people with transport, jobs, AI services, and education in Nepal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
