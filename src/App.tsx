@@ -455,20 +455,25 @@ export default function App() {
             </div>
 
             {/* Live Clock with UTC +5:45, Nepali BS, and AD Date */}
-            <div className="bg-[#080604] border border-[#D4A017]/15 rounded-xl px-5 py-3 text-left md:text-right flex flex-col gap-1.5 mt-3 md:mt-0 shadow-inner min-w-[210px] w-full md:w-auto">
-              <div className="flex items-center md:justify-end gap-1.5 text-[#F5C842]">
-                <Clock className="w-4 h-4 text-[#D4A017] animate-pulse" />
-                <span className="text-base md:text-lg font-mono font-bold tracking-tight text-white select-all">{nepalTime || "00:00:00 AM"}</span>
+            <div className="bg-[#E0F2FE] border-2 border-[#7DD3FC] rounded-2xl p-4 md:p-5 text-left md:text-right flex flex-col gap-2 mt-3 md:mt-0 shadow-[0_8px_30px_rgb(14,165,233,0.15)] min-w-[240px] md:min-w-[280px] w-full md:w-auto relative overflow-hidden transition-all duration-300 hover:border-[#38BDF8]">
+              {/* Highlight background design token */}
+              <div className="absolute -right-6 -bottom-6 w-16 h-16 bg-[#38BDF8]/10 rounded-full pointer-events-none" />
+              
+              <div className="flex items-center md:justify-end gap-2 text-[#0369A1]">
+                <Clock className="w-5 h-5 text-[#0284C7] animate-pulse" />
+                <span className="text-xl md:text-2xl font-mono font-black tracking-tight text-[#0F172A] select-all">
+                  {nepalTime || "00:00:00 AM"}
+                </span>
               </div>
               
               {nepaliDate && gregorianDate && (
-                <div className="flex flex-col gap-0.5 border-t border-[#D4A017]/10 pt-1.5 text-[11px] font-mono leading-tight">
+                <div className="flex flex-col gap-1.5 border-t border-[#BAE6FD] pt-2 text-[12px] md:text-sm font-mono leading-tight">
                   {/* Nepali BS Date */}
-                  <div className="flex items-center justify-between md:justify-end gap-2.5 text-[#F5C842]">
-                    <span className="text-[9px] text-[#9A8A6A] font-sans font-bold tracking-wider uppercase">
+                  <div className="flex items-center justify-between md:justify-end gap-3">
+                    <span className="text-[10px] md:text-xs text-[#0284C7] font-sans font-black tracking-wider uppercase select-none">
                       {language === "en" ? "BS:" : "वि.सं.:"}
                     </span>
-                    <span className="font-bold">
+                    <span className="font-black text-sm md:text-base text-[#0F172A]">
                       {language === "en" ? (
                         `${NEP_MONTHS_EN[nepaliDate.monthIndex]} ${nepaliDate.day}, ${nepaliDate.year}`
                       ) : (
@@ -478,11 +483,11 @@ export default function App() {
                   </div>
 
                   {/* AD Date */}
-                  <div className="flex items-center justify-between md:justify-end gap-2.5 text-[#9A8A6A]">
-                    <span className="text-[9px] font-sans font-bold tracking-wider uppercase">
+                  <div className="flex items-center justify-between md:justify-end gap-3">
+                    <span className="text-[10px] md:text-xs text-[#0369A1] font-sans font-black tracking-wider uppercase select-none">
                       {language === "en" ? "AD:" : "सन्:"}
                     </span>
-                    <span className="font-semibold text-[10.5px]">
+                    <span className="font-extrabold text-xs md:text-sm text-[#334155]">
                       {language === "en" ? (
                         `${AD_MONTHS_EN[gregorianDate.getMonth()].slice(0,3)} ${gregorianDate.getDate()}, ${gregorianDate.getFullYear()}`
                       ) : (
@@ -493,7 +498,7 @@ export default function App() {
                 </div>
               )}
               
-              <p className="text-[9px] uppercase font-bold tracking-widest text-[#9A8A6A] mt-0.5 border-t border-[#D4A017]/5 pt-1 text-left md:text-right select-none">
+              <p className="text-[10px] uppercase font-black tracking-widest text-[#0369A1] mt-0.5 border-t border-[#BAE6FD] pt-1.5 text-left md:text-right select-none">
                 {language === "en" ? "Beni Live Clock" : "बेनी लाइभ घडी"}
               </p>
             </div>
