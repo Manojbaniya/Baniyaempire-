@@ -48,7 +48,7 @@ const MOCK_JOBS = [
     category: "agriculture",
     type: "Full-time",
     location: "Baniya Farms, Dandakhet",
-    npLocation: "बनिया फार्म्स, डाँडाखेत",
+    npLocation: "बानियाँ फार्म्स, डाँडाखेत",
     salary: "NPR 22,000 - 30,000 / month",
     description: "Manage planting, nurturing, and harvesting of organic produce at Dandakhet agricultural lot. Experience in organic composting preferred.",
     npDescription: "डाँडाखेतमा प्रांगारिक कृषिको रेखदेख, रोपाईं र फसल व्यवस्थापन हेर्नका लागि।"

@@ -272,17 +272,17 @@ export default function App() {
   // Coming Soon Items List
   const COMING_SOON_ITEMS: ComingSoonItem[] = [
     { emoji: "🚐", name: "BeniMove", npName: "बेनीमूभ", desc: "Reliable, comfortable van transit system connecting Beni Bazaar and Pokhara.", npDesc: "बेनी र पोखरालाई जोड्ने अत्याधुनिक आरामदायी पर्यटकीय पर्यटकीय भ्यान सेवा।", year: "2028", category: "transport" },
-    { emoji: "🌾", name: "Baniya Farms", npName: "बनिया फार्म्स", desc: "Cooperative farming initiative providing fresh pesticide-free organic crops.", npDesc: "पुला र डाँडाखेतका कान्लाहरूबाट अर्गानिक, ताजा र स्वास्थ्यकर उपज कूपरेटिभ।", year: "2028", category: "agriculture" },
+    { emoji: "🌾", name: "Baniya Farms", npName: "बानियाँ फार्म्स", desc: "Cooperative farming initiative providing fresh pesticide-free organic crops.", npDesc: "पुला र डाँडाखेतका कान्लाहरूबाट अर्गानिक, ताजा र स्वास्थ्यकर उपज कूपरेटिभ।", year: "2028", category: "agriculture" },
     { emoji: "💻", name: "BeniTech", npName: "बेनीटेक", desc: "Local customized IT services, custom software coding, and device training hub.", npDesc: "स्थानीय युवालाई प्रविधि तालिम र डिजिटल विकास सम्बन्धि काम गर्ने प्रविधि केन्द्र।", year: "2028", category: "education" },
     { emoji: "📡", name: "ConnectBeni", npName: "कनेक्टबेनी", desc: "High-speed community fiber internet targeting remote villages in Myagdi.", npDesc: "म्याग्दीका विकट पहाडी गाउँहरूमा तीव्र गतिको सामुदायिक इन्टरनेट सञ्जाल।", year: "2028", category: "infrastructure" },
-    { emoji: "🏔️", name: "Visit Myagdi", npName: "भिजिट मयागडी", desc: "Eco-tourism portal with professional mountain guides and rafting bookers.", npDesc: "धौलागिरी फेरो र कालीगण्डकी र्याफ्टिङ यात्राको गाइड र टुर प्याकेज व्यवस्थापन।", year: "2029", category: "tourism" },
+    { emoji: "🏔️", name: "Visit Myagdi", npName: "भिजिट म्याग्दी", desc: "Eco-tourism portal with professional mountain guides and rafting bookers.", npDesc: "धौलागिरी फेरो र कालीगण्डकी र्याफ्टिङ यात्राको गाइड र टुर प्याकेज व्यवस्थापन।", year: "2029", category: "tourism" },
     { emoji: "🏨", name: "BeniStay", npName: "बेनीस्टे", desc: "Standard community homestay and luxury hotel directory for trekkers.", npDesc: "धौलागिरी घुम्न आउने पर्यटकहरूको लागि होटल र लोकल होमस्टे एकीकृत बुकिङ पोर्टल।", year: "2029", category: "hospitality" },
     { emoji: "⚡", name: "BeniGreen Solar", npName: "बेनीग्रीन सोलर", desc: "Clean, sustainable solar energy panels for remote mountain grids.", npDesc: "सौर्य ऊर्जा र विकट भेगहरूमा बिजुली विस्तार गर्ने हाम्रो वैकल्पिक ऊर्जा लक्ष्य।", year: "2029", category: "infrastructure" },
     { emoji: "🌊", name: "BeniRiver Rafting", npName: "बेनीरिभर र्याफ्टिङ", desc: "Kali Gandaki rapids river run experiences for global adventure seekers.", npDesc: "कालीगण्डकी नदीको आकर्षक छालहरूमा विश्वस्तरीय रोमान्चक र्याफ्टिङ सेवा।", year: "2029", category: "tourism" },
-    { emoji: "🏠", name: "Baniya Properties", npName: "बनिया प्रपर्टिज", desc: "Fair trade real estate, land mapping, and community housing guides.", npDesc: "म्याग्दी भित्र व्यवस्थित जग्गा कारोबार, मूल्याङ्कन र गृह निर्माण सेवा।", year: "2029", category: "infrastructure" },
+    { emoji: "🏠", name: "Baniya Properties", npName: "बानियाँ प्रपर्टिज", desc: "Fair trade real estate, land mapping, and community housing guides.", npDesc: "म्याग्दी भित्र व्यवस्थित जग्गा कारोबार, मूल्याङ्कन र गृह निर्माण सेवा।", year: "2029", category: "infrastructure" },
     { emoji: "📰", name: "Beni Press", npName: "बेनी प्रेस", desc: "Community publication focusing on rural opportunities and mountain stories.", npDesc: "पहाडी जीवन र स्थानीय अवसरहरूलाई समेट्ने हाम्रो आन्तरिक मुद्रण सेवा।", year: "2028", category: "media" },
-    { emoji: "🎬", name: "Baniya Vision Media", npName: "बनिया भिजन मिडिया", desc: "Active YouTube channel and documentaries profiling Myagdi's raw beauty.", npDesc: "म्याग्दीको विकास र ग्रामीण पर्यटनको वृत्तचित्र प्रसारण गर्ने सक्रिय मिडिया च्यानल।", year: "Active", category: "media" },
-    { emoji: "🕯️", name: "Hom Kumari Foundation", npName: "हजुरआमा फाउन्डेशन", desc: "Stipends and meals for underprivileged students, honoring homemaker grandmother.", npDesc: "हजुरआमा होम कुमारी बनियाको सम्झनामा विपन्न बालबालिकालाई छात्रवृत्ति र खाना सहयोग।", year: "2028", category: "foundation" }
+    { emoji: "🎬", name: "Baniya Vision Media", npName: "बानियाँ भिजन मिडिया", desc: "Active YouTube channel and documentaries profiling Myagdi's raw beauty.", npDesc: "म्याग्दीको विकास र ग्रामीण पर्यटनको वृत्तचित्र प्रसारण गर्ने सक्रिय मिडिया च्यानल।", year: "Active", category: "media" },
+    { emoji: "🕯️", name: "Hom Kumari Foundation", npName: "हजुरआमा फाउन्डेशन", desc: "Stipends and meals for underprivileged students, honoring homemaker grandmother.", npDesc: "हजुरआमा होम कुमारी बानियाँको सम्झनामा विपन्न बालबालिकालाई छात्रवृत्ति र खाना सहयोग।", year: "2028", category: "foundation" }
   ];
 
   // Filter coming soon items
@@ -316,7 +316,7 @@ export default function App() {
           <div className="flex items-center gap-2">
             <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse" />
             <span className="text-xs font-bold text-[#F5C842]">
-              {language === "en" ? "BANIYA EMPIRE RADAR" : "बनिया साम्राज्य जानकारी"}
+              {language === "en" ? "BANIYA EMPIRE RADAR" : "बानियाँ साम्राज्य जानकारी"}
             </span>
           </div>
           <button
@@ -369,7 +369,7 @@ export default function App() {
                   <span className="text-[9px] uppercase text-amber-500 font-bold tracking-wider">{language === "en" ? "Expanding" : "विस्तार"}</span>
                 </div>
                 <h4 className="text-[#F9F3E3] text-xs font-bold mt-1 uppercase font-serif tracking-tight">
-                  {language === "en" ? "BeniMove & Farms" : "बेनीमूभ र बनिया फार्म्स"}
+                  {language === "en" ? "BeniMove & Farms" : "बेनीमूभ र बानियाँ फार्म्स"}
                 </h4>
                 <p className="text-[11px] text-[#9A8A6A] mt-0.5 leading-snug">
                   {language === "en" ? "Van routing, organic co-op, and 200+ local jobs." : "बेनी-पोखरा पर्यटन यातायात र अर्गानिक तरकारी कूपरेटिभ।"}
@@ -405,6 +405,7 @@ export default function App() {
                   {language === "en" ? "100% self-sufficient solar hydro framework for remote villages." : "गाउँघरमा पूर्ण आत्मनिर्भर नवीकरणीय ऊर्जाको विस्तार।"}
                 </p>
               </div>
+
             </div>
           </div>
 
@@ -415,12 +416,12 @@ export default function App() {
             <p className="text-xs italic text-[#9A8A6A] leading-relaxed relative z-10">
               {language === "en"
                 ? '"Myagdi gave us everything — our mountains, our values, our grandmother Hom Kumari Baniya who worked tirelessly so her family could thrive. Our promise is to bring opportunity back to these hills."'
-                : '"म्याग्दीले हामीलाई सबथोक दियो — हाम्रा पहाड, हाम्रो संस्कार, हाम्री हजुरआमा होम कुमारी बनिया जसले परिवार चलाउन जीवनभर दुःख गर्नुभयो। यो साम्राज्य म्याग्दीमा सुख फर्काउने साझा वाचा हो।"'}
+                : '"म्याग्दीले हामीलाई सबथोक दियो — हाम्रा पहाड, हाम्रो संस्कार, हाम्री हजुरआमा होम कुमारी बानियाँ जसले परिवार चलाउन जीवनभर दुःख गर्नुभयो। यो साम्राज्य म्याग्दीमा सुख फर्काउने साझा वाचा हो।"'}
             </p>
 
             <div className="mt-4 pt-4 border-t border-[#D4A017]/10">
               <p className="text-[11px] font-extrabold text-[#D4A017] tracking-wider uppercase font-sans">
-                {language === "en" ? "— Baniya Empire Legacy" : "— बनिया साम्राज्य परिवार"}
+                {language === "en" ? "— Baniya Empire Legacy" : "— बानियाँ साम्राज्य परिवार"}
               </p>
               <p className="text-[9px] text-[#9A8A6A] block mt-1 font-mono">
                 {language === "en" ? "Pula, Dandakhet • Beni, Myagdi" : "पुला, डाँडाखेत • बेनी, म्याग्दी"}
@@ -498,173 +499,16 @@ export default function App() {
                 </div>
               )}
               
-              <p className="text-[10px] uppercase font-black tracking-widest text-[#0369A1] mt-0.5 border-t border-[#BAE6FD] pt-1.5 text-left md:text-right select-none">
-                {language === "en" ? "Beni Live Clock" : "बेनी लाइभ घडी"}
-              </p>
-            </div>
-          </div>
-
-          {/* Tab Selection Row */}
-          <div className="flex border-b border-[#D4A017]/15 bg-[#100C08] p-1.5 rounded-xl gap-1 overflow-x-auto select-none">
-            <button
-              onClick={() => setActiveTab("overview")}
-              className={`px-4 py-2.5 rounded-lg text-xs font-sans font-bold transition-all whitespace-nowrap cursor-pointer ${
-                activeTab === "overview"
-                  ? "bg-[#D4A017] text-[#080604] shadow-md"
-                  : "text-[#9A8A6A] hover:bg-[#D4A017]/5 hover:text-[#F9F3E3]"
-              }`}
-            >
-              📊 {language === "en" ? "Ecosystem Grid" : "इकोसिस्टम"}
-            </button>
-            <button
-              onClick={() => setActiveTab("benidash")}
-              className={`px-4 py-2.5 rounded-lg text-xs font-sans font-bold transition-all whitespace-nowrap cursor-pointer ${
-                activeTab === "benidash"
-                  ? "bg-[#D4A017] text-[#080604] shadow-md"
-                  : "text-[#9A8A6A] hover:bg-[#D4A017]/5 hover:text-[#F9F3E3]"
-              }`}
-            >
-              🛵 BeniDash
-            </button>
-            <button
-              onClick={() => setActiveTab("benijobs")}
-              className={`px-4 py-2.5 rounded-lg text-xs font-sans font-bold transition-all whitespace-nowrap cursor-pointer ${
-                activeTab === "benijobs"
-                  ? "bg-[#D4A017] text-[#080604] shadow-md"
-                  : "text-[#9A8A6A] hover:bg-[#D4A017]/5 hover:text-[#F9F3E3]"
-              }`}
-            >
-              💼 BeniJobs Nepal
-            </button>
-            <button
-              onClick={() => setActiveTab("gurukul")}
-              className={`px-4 py-2.5 rounded-lg text-xs font-sans font-bold transition-all whitespace-nowrap cursor-pointer ${
-                activeTab === "gurukul"
-                  ? "bg-[#D4A017] text-[#080604] shadow-md"
-                  : "text-[#9A8A6A] hover:bg-[#D4A017]/5 hover:text-[#F9F3E3]"
-              }`}
-            >
-              📚 Gurukul Hub
-            </button>
-            <button
-              onClick={() => setActiveTab("visitmyagdi")}
-              className={`px-4 py-2.5 rounded-lg text-xs font-sans font-bold transition-all whitespace-nowrap cursor-pointer ${
-                activeTab === "visitmyagdi"
-                  ? "bg-[#D4A017] text-[#080604] shadow-md"
-                  : "text-[#9A8A6A] hover:bg-[#D4A017]/5 hover:text-[#F9F3E3]"
-              }`}
-            >
-              🧭 {language === "en" ? "Explore Myagdi" : "म्याग्दी दर्शन"}
-            </button>
-          </div>
-
-          {/* Official Subdomain Portals Links Banner */}
-          <div className="bg-[#100C08] border border-[#D4A017]/30 rounded-2xl p-4 md:p-5 flex flex-col gap-4 relative overflow-hidden shadow-[0_0_20px_rgba(212,160,23,0.06)]">
-            <div className="absolute -left-10 -bottom-10 w-28 h-28 bg-[#D4A017]/5 blur-2xl rounded-full pointer-events-none" />
-            <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-3 border-b border-[#D4A017]/15 pb-3">
-              <div>
-                <h3 className="font-serif font-black text-xs md:text-sm text-white tracking-wide uppercase flex items-center gap-2">
-                  <span className="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-                  {language === "en" ? "Baniya Empire Official Portals & Subdomains" : "बनिया साम्राज्यका आधिकारिक वेब पोर्टलहरू"}
-                </h3>
-                <p className="text-[10px] text-[#9A8A6A] mt-0.5">
-                  {language === "en" ? "Direct portal gateways linking you with live subdomains in Myagdi" : "म्याग्दीका लाइभ सेवाहरूमा सुरक्षित र नि:शुल्क पहुँचको लागि आधिकारिक लिङ्कहरू"}
-                </p>
-              </div>
-              
-              <div className="flex items-center gap-2 bg-[#D4A017]/10 px-3 py-1 rounded-full border border-[#D4A017]/20">
-                <Globe className="w-3 h-3 text-[#F5C842]" />
-                <span className="text-[10px] text-[#F5C842] font-semibold tracking-wide uppercase">
-                  {language === "en" ? "Official Live Gateway" : "आधिकारिक गेटवे"}
+              <div className="text-[9px] text-[#0369A1] mt-0.5 border-t border-[#BAE6FD] pt-1.5 flex flex-col items-start md:items-end gap-0.5 select-none font-mono">
+                <span className="font-black tracking-widest uppercase">
+                  {language === "en" ? "Beni Live Clock" : "बेनी लाइभ घडी"}
                 </span>
-              </div>
-            </div>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2.5">
-              {[
-                {
-                  label_en: "Ride & Delivery",
-                  label_np: "सवारी र डेलिभरी",
-                  desc_en: "Order food, rides & express transport",
-                  desc_np: "खाना, औषधि डेलिभरी र यात्रा बुकिङ",
-                  subdomain: "benidash.com",
-                  href: "https://benidash.com",
-                  emoji: "🛵",
-                  color: "border-orange-500/20 hover:border-orange-500/50 hover:bg-orange-500/3"
-                },
-                {
-                  label_en: "Jobs Board",
-                  label_np: "रोजगार मञ्च",
-                  desc_en: "Regional jobs for local youths",
-                  desc_np: "स्थानीय युवा जागरण र सशुल्क रोजगार",
-                  subdomain: "benijobsnepal.benidash.com",
-                  href: "https://benijobsnepal.benidash.com",
-                  emoji: "💼",
-                  color: "border-blue-500/20 hover:border-blue-500/50 hover:bg-blue-500/3"
-                },
-                {
-                  label_en: "AI Assistant",
-                  label_np: "एआई डिजिटल गुरु",
-                  desc_en: "24/7 mountain-savvy AI chat",
-                  desc_np: "म्याग्दी स्थानीय ज्ञान र कृत्रिम बुद्धिमत्ता",
-                  subdomain: "aibenidash.benidash.com",
-                  href: "https://aibenidash.benidash.com",
-                  emoji: "🤖",
-                  color: "border-purple-500/20 hover:border-purple-500/50 hover:bg-purple-500/3"
-                },
-                {
-                  label_en: "Gurukul Hub",
-                  label_np: "विद्यार्थी गुरुकुल",
-                  desc_en: "Free online courses & study guides",
-                  desc_np: "बालबालिकाका लागि अनलाइन निशुल्क ट्युसन",
-                  subdomain: "benidashgurukul.benidash.com",
-                  href: "https://benidashgurukul.benidash.com",
-                  emoji: "📚",
-                  color: "border-cyan-500/20 hover:border-cyan-500/50 hover:bg-cyan-500/3"
-                }
-              ].map((portal, idx) => (
-                <a
-                  key={idx}
-                  href={portal.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={`group block bg-[#080604] border ${portal.color} p-3.5 rounded-xl transition-all duration-200 hover:shadow-[0_4px_14px_rgba(212,160,23,0.08)]`}
-                >
-                  <div className="flex items-center gap-2 mb-1">
-                    <span className="text-xl">{portal.emoji}</span>
-                    <span className="font-semibold text-xs text-white group-hover:text-[#F5C842] transition-colors">
-                      {language === "en" ? portal.label_en : portal.label_np}
-                    </span>
-                    <ExternalLink className="w-2.5 h-2.5 text-[#9A8A6A] group-hover:text-[#F5C842] ml-auto transition-colors" />
-                  </div>
-                  <div className="text-[10px] text-[#9A8A6A] leading-tight group-hover:text-[#F9F3E3] transition-colors mb-2.5 min-h-[28px] flex items-center">
-                    {language === "en" ? portal.desc_en : portal.desc_np}
-                  </div>
-                  <div className="text-[9.5px] font-mono text-[#D4A017] group-hover:text-[#F5C842] font-semibold break-all leading-none bg-[#D4A017]/5 p-1 rounded border border-[#D4A017]/10 text-center">
-                    {portal.subdomain}
-                  </div>
-                </a>
-              ))}
-            </div>
-            
-            {/* Direct rider/merchant signups matching post */}
-            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-[10px] text-[#9A8A6A] bg-[#0c0906] p-3 rounded-xl border border-[#D4A017]/5">
-              <div className="flex flex-wrap items-center gap-2.5">
-                <span className="font-semibold text-[#D4A017] uppercase tracking-wider text-[9px]">
-                  {language === "en" ? "Registration Portal:" : "भर्ना तथा दर्ता पोर्टल:"}
+                <span className="flex items-center gap-1 font-sans text-[10px] text-[#0284C7] font-bold mt-1">
+                  <MapPin className="w-3 h-3 text-[#0284C7]" />
+                  <span>
+                    {language === "en" ? "Baniya Empire HQ: Beni, Myagdi" : "मुख्य कार्यालय: बेनी, म्याग्दी"}
+                  </span>
                 </span>
-                <span className="flex items-center gap-1 font-mono">
-                  🛵 {language === "en" ? "Rider (Earn daily):" : "चालक (दैनिक आम्दानी):"}
-                  <a href="https://benidash.com" target="_blank" rel="noopener noreferrer" className="text-[#F5C842] hover:underline font-bold">benidash.com</a>
-                </span>
-                <span className="text-[#D4A017]/30 hidden sm:inline">•</span>
-                <span className="flex items-center gap-1 font-mono">
-                  Store {language === "en" ? "Partner:" : "साझेदार बन्नुस्:"}
-                  <a href="https://benidash.com" target="_blank" rel="noopener noreferrer" className="text-[#F5C842] hover:underline font-bold">benidash.com</a>
-                </span>
-              </div>
-              <div className="text-[9px] bg-emerald-500/10 text-emerald-400 font-bold px-2 py-0.5 rounded font-mono border border-emerald-500/20 select-none">
-                {language === "en" ? "Myagdi's Digital Era Is Here" : "म्याग्दीको आफ्नै डिजिटल मञ्च 🏔️"}
               </div>
             </div>
           </div>
@@ -684,9 +528,19 @@ export default function App() {
                     <div>
                       <div className="flex justify-between items-start mb-4">
                         <span className="text-3xl">🛵</span>
-                        <span className="text-[9px] bg-orange-500/10 border border-orange-500/30 text-orange-400 font-bold px-2 py-0.5 rounded-full uppercase">
-                          {language === "en" ? "Rides & Delivery" : "सवारी र डेलिभरी"}
-                        </span>
+                        <div className="flex flex-col items-end gap-1">
+                          <span className="text-[9px] bg-orange-500/10 border border-orange-500/30 text-orange-400 font-bold px-2 py-0.5 rounded-full uppercase">
+                            {language === "en" ? "Rides & Delivery" : "सवारी र डेलिभरी"}
+                          </span>
+                          <a 
+                            href="https://benidash.com" 
+                            target="_blank" 
+                            rel="noopener noreferrer" 
+                            className="text-[10px] font-mono text-orange-400 hover:text-orange-300 font-bold bg-orange-500/5 px-1.5 py-0.5 rounded border border-orange-500/10 flex items-center gap-1 transition-all"
+                          >
+                            benidash.com <ExternalLink className="w-2.5 h-2.5" />
+                          </a>
+                        </div>
                       </div>
                       <h3 className="font-serif text-xl font-bold text-white group-hover:text-orange-400 transition-colors">BeniDash</h3>
                       <p className="text-[11px] text-orange-200/50 mb-3 block font-mono">बेनीडेश — राइड र डेलिभरी</p>
@@ -704,7 +558,7 @@ export default function App() {
                         <span>{language === "en" ? "Open Rate Estimator" : "भाडा दर अनुमान कन्सोल"}</span>
                         <ChevronRight className="w-3 h-3" />
                       </button>
-                      <span className="text-[10px] text-emerald-500 font-mono font-bold">100% Active</span>
+                      <span className="text-[10px] text-[#F5C842] font-mono font-bold">100% Active</span>
                     </div>
                   </div>
 
@@ -713,9 +567,19 @@ export default function App() {
                     <div>
                       <div className="flex justify-between items-start mb-4">
                         <span className="text-3xl">💼</span>
-                        <span className="text-[9px] bg-blue-500/10 border border-blue-500/30 text-blue-400 font-bold px-2 py-0.5 rounded-full uppercase">
-                          {language === "en" ? "Opportunities" : "रोजगार बोर्ड"}
-                        </span>
+                        <div className="flex flex-col items-end gap-1">
+                          <span className="text-[9px] bg-blue-500/10 border border-blue-500/30 text-blue-400 font-bold px-2 py-0.5 rounded-full uppercase">
+                            {language === "en" ? "Opportunities" : "रोजगार बोर्ड"}
+                          </span>
+                          <a 
+                            href="https://benijobsnepal.benidash.com" 
+                            target="_blank" 
+                            rel="noopener noreferrer" 
+                            className="text-[10px] font-mono text-blue-400 hover:text-blue-300 font-bold bg-blue-500/5 px-1.5 py-0.5 rounded border border-blue-500/10 flex items-center gap-1 transition-all"
+                          >
+                            benijobsnepal.benidash.com <ExternalLink className="w-2.5 h-2.5" />
+                          </a>
+                        </div>
                       </div>
                       <h3 className="font-serif text-xl font-bold text-white group-hover:text-blue-400 transition-colors">BeniJobs Nepal</h3>
                       <p className="text-[11px] text-blue-200/50 mb-3 block font-mono">बेनीजब्स — जागिर खोज्नुस्</p>
@@ -733,7 +597,7 @@ export default function App() {
                         <span>{language === "en" ? "Explore Jobs Board" : "रोजगार विज्ञापनहरू हेर्नुस्"}</span>
                         <ChevronRight className="w-3 h-3" />
                       </button>
-                      <span className="text-[10px] text-emerald-500 font-mono font-bold">Free access</span>
+                      <span className="text-[10px] text-[#F5C842] font-mono font-bold">Free access</span>
                     </div>
                   </div>
 
@@ -742,9 +606,19 @@ export default function App() {
                     <div>
                       <div className="flex justify-between items-start mb-4">
                         <span className="text-3xl">🤖</span>
-                        <span className="text-[9px] bg-purple-500/10 border border-purple-500/30 text-purple-400 font-bold px-2 py-0.5 rounded-full uppercase">
-                          {language === "en" ? "Smart Assistant" : "आर्टिफिसियल इन्टेलिजेन्स"}
-                        </span>
+                        <div className="flex flex-col items-end gap-1">
+                          <span className="text-[9px] bg-purple-500/10 border border-purple-500/30 text-purple-400 font-bold px-2 py-0.5 rounded-full uppercase">
+                            {language === "en" ? "Smart Assistant" : "आर्टिफिसियल इन्टेलिजेन्स"}
+                          </span>
+                          <a 
+                            href="https://aibenidash.benidash.com" 
+                            target="_blank" 
+                            rel="noopener noreferrer" 
+                            className="text-[10px] font-mono text-purple-400 hover:text-purple-300 font-bold bg-purple-500/5 px-1.5 py-0.5 rounded border border-purple-500/10 flex items-center gap-1 transition-all"
+                          >
+                            aibenidash.benidash.com <ExternalLink className="w-2.5 h-2.5" />
+                          </a>
+                        </div>
                       </div>
                       <h3 className="font-serif text-xl font-bold text-white group-hover:text-purple-400 transition-colors">AI BeniDash</h3>
                       <p className="text-[11px] text-purple-200/50 mb-3 block font-mono">नेपालको आफ्नै AI सहायक</p>
@@ -759,7 +633,7 @@ export default function App() {
                         onClick={() => setIsChatOpen(true)}
                         className="text-[11px] font-extrabold text-purple-300 focus:outline-none flex items-center gap-1.5 group-hover:underline cursor-pointer"
                       >
-                        <span>{language === "en" ? "Launch Copilot Dialog" : "एआई सहायकसँग कुरा गर्ने"}</span>
+                        <span>{language === "en" ? "Launch Copilot Dialog" : "ए१ सहायकसँग कुरा गर्ने"}</span>
                         <ChevronRight className="w-3 h-3" />
                       </button>
                       <span className="text-[10px] text-[#F3E8FF] bg-purple-500/20 px-2 py-0.5 rounded border border-purple-500/30 font-bold">GENAI ON</span>
@@ -771,9 +645,19 @@ export default function App() {
                     <div>
                       <div className="flex justify-between items-start mb-4">
                         <span className="text-3xl">📚</span>
-                        <span className="text-[9px] bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 font-bold px-2 py-0.5 rounded-full uppercase">
-                          {language === "en" ? "Education Portal" : "निःशुल्क डिजिटल विद्यालय"}
-                        </span>
+                        <div className="flex flex-col items-end gap-1">
+                          <span className="text-[9px] bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 font-bold px-2 py-0.5 rounded-full uppercase">
+                            {language === "en" ? "Education Portal" : "निःशुल्क डिजिटल विद्यालय"}
+                          </span>
+                          <a 
+                            href="https://benidashgurukul.benidash.com" 
+                            target="_blank" 
+                            rel="noopener noreferrer" 
+                            className="text-[10px] font-mono text-emerald-400 hover:text-emerald-300 font-bold bg-emerald-500/5 px-1.5 py-0.5 rounded border border-emerald-500/10 flex items-center gap-1 transition-all"
+                          >
+                            benidashgurukul.benidash.com <ExternalLink className="w-2.5 h-2.5" />
+                          </a>
+                        </div>
                       </div>
                       <h3 className="font-serif text-xl font-bold text-white group-hover:text-emerald-400 transition-colors">BeniDash Gurukul</h3>
                       <p className="text-[11px] text-emerald-200/50 mb-3 block font-mono font-nepali">बेनीडेश गुरुकुल — सिक्नुस्!</p>
@@ -805,7 +689,7 @@ export default function App() {
                         {language === "en" ? "Upcoming Strategic Businesses" : "आगामी थप १३ नयाँ व्यवसायहरू"}
                       </h2>
                       <p className="text-xs text-[#9A8A6A]">
-                        {language === "en" ? "13 additional modules to complete the grand ecosystem." : "म्याग्दीको विकासका निम्ति बनिया साम्राज्यका योजनाबद्ध १३ नयाँ उद्योगहरू।"}
+                        {language === "en" ? "13 additional modules to complete the grand ecosystem." : "म्याग्दीको विकासका निम्ति बानियाँ साम्राज्यका योजनाबद्ध १३ नयाँ उद्योगहरू।"}
                       </p>
                     </div>
 

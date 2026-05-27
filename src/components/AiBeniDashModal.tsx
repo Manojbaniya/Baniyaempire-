@@ -22,7 +22,7 @@ export default function AiBeniDashModal({ isOpen, onClose, language }: AiBeniDas
     "What is BeniJobs Nepal?",
     "How do I use BeniDash Gurukul?"
   ] : [
-    "बनिया साम्राज्यको लक्ष्य के हो?",
+    "बानियाँ साम्राज्यको लक्ष्य के हो?",
     "चालक बनेर दिनको ४००-७०० कसरी कमाउने?",
     "बेनीजब्स नेपाल भनेको के हो?",
     "बेनीडेश गुरुकुल कसरी चलाउने?"
@@ -47,7 +47,7 @@ export default function AiBeniDashModal({ isOpen, onClose, language }: AiBeniDas
           role: "assistant",
           text: language === "en" 
             ? "Namaste! 🙏 I am AI BeniDash, your digital companion for the Baniya Empire and Myagdi district. Our core developers and team built me to connect you with opportunities here at home. Ask me anything about our rides & delivery app, jobs board, gurukul programs, or how you can participate!"
-            : "नमस्ते! 🙏 म एआई बेनीडेश हुँ, बनिया साम्राज्य र म्याग्दी जिल्लाको लागि डिजिटल मित्र। हाम्रो प्रविधि टोली र विकासकर्ताहरूले तपाईंलाई घरमै अवसरहरूसँग जोड्न मलाई तयार पारेका हुन्। मलाई हाम्रो डेलिभरी सेवा, रोजगार मञ्च, वा म्याग्दीको विकासका बारे जे पनि सोध्नुहोस्!",
+            : "नमस्ते! 🙏 म एआई बेनीडेश हुँ, बानियाँ साम्राज्य र म्याग्दी जिल्लाको लागि डिजिटल मित्र। हाम्रो प्रविधि टोली र विकासकर्ताहरूले तपाईंलाई घरमै अवसरहरूसँग जोड्न मलाई तयार पारेका हुन्। मलाई हाम्रो डेलिभरी सेवा, रोजगार मञ्च, वा म्याग्दीको विकासका बारे जे पनि सोध्नुहोस्!",
           timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
         }
       ]);
