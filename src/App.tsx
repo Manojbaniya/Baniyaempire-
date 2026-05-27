@@ -515,13 +515,22 @@ export default function App() {
 
           {/* Active Workspace Container */}
           <div className="flex-1">
+            {activeTab !== "overview" && (
+              <button
+                onClick={() => setActiveTab("overview")}
+                className="mb-6 inline-flex items-center gap-2 text-xs font-bold text-[#D4A017] hover:text-[#F5C842] transition-all bg-[#D4A017]/10 hover:bg-[#D4A017]/15 border border-[#D4A017]/20 px-3.5 py-2 rounded-xl cursor-pointer"
+              >
+                <Undo2 className="w-4 h-4 text-[#D4A017]" />
+                <span>{language === "en" ? "✦ Back to Overview Dashboard" : "✦ मुख्य ड्यासबोर्डमा फर्कनुहोस्"}</span>
+              </button>
+            )}
 
             {/* TAB 1: OVERVIEW BENTO GRID */}
             {activeTab === "overview" && (
               <div className="space-y-6">
                 
-                {/* 4 Flagship interactive gateways */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {/* 5 Flagship interactive gateways */}
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                   
                   {/* Card 1: BeniDash */}
                   <div className="group relative bg-[#100C08] border border-orange-500/15 hover:border-orange-500/40 p-6 rounded-2xl flex flex-col justify-between transition-all duration-300">
@@ -676,6 +685,45 @@ export default function App() {
                         <ChevronRight className="w-3 h-3" />
                       </button>
                       <span className="text-[10px] text-emerald-500 font-mono font-bold">1,200+ Scholars</span>
+                    </div>
+                  </div>
+
+                  {/* Card 5: BeniDash Stay */}
+                  <div className="group relative bg-[#100C08] border border-cyan-500/15 hover:border-cyan-500/40 p-6 rounded-2xl flex flex-col justify-between transition-all duration-300">
+                    <div>
+                      <div className="flex justify-between items-start mb-4">
+                        <span className="text-3xl">🏨</span>
+                        <div className="flex flex-col items-end gap-1">
+                          <span className="text-[9px] bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 font-bold px-2 py-0.5 rounded-full uppercase">
+                            {language === "en" ? "Hotel & Stay" : "होटल र होमस्टे"}
+                          </span>
+                          <a 
+                            href="https://benidashstay.benidash.com" 
+                            target="_blank" 
+                            rel="noopener noreferrer" 
+                            className="text-[10px] font-mono text-cyan-400 hover:text-cyan-300 font-bold bg-cyan-500/5 px-1.5 py-0.5 rounded border border-cyan-500/10 flex items-center gap-1 transition-all"
+                          >
+                            benidashstay.benidash.com <ExternalLink className="w-2.5 h-2.5" />
+                          </a>
+                        </div>
+                      </div>
+                      <h3 className="font-serif text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">BeniDash Stay</h3>
+                      <p className="text-[11px] text-cyan-200/50 mb-3 block font-mono">बेनीडेश स्टे — होटल र होमस्टे</p>
+                      <p className="text-xs text-[#9A8A6A] leading-relaxed mb-4">
+                        {language === "en"
+                          ? "Standardized hotel bookings and local community homestays in Myagdi. Supporting organic tourism."
+                          : "धौलागिरी र म्याग्दी क्षेत्र घुम्न आउने पर्यटकहरूका लागि स्तरीय होटल र लोकल होमस्टे बुकिङ मञ्च।"}
+                      </p>
+                    </div>
+                    <div className="flex justify-between items-center pt-2 mt-auto">
+                      <button
+                        onClick={() => setActiveTab("visitmyagdi")}
+                        className="text-[11px] font-extrabold text-cyan-400 focus:outline-none flex items-center gap-1.5 group-hover:underline cursor-pointer"
+                      >
+                        <span>{language === "en" ? "Explore Stay Portal" : "होमस्टे र होटल विवरण हेर्नुस्"}</span>
+                        <ChevronRight className="w-3 h-3" />
+                      </button>
+                      <span className="text-[10px] text-cyan-500 font-mono font-bold">Live Portal</span>
                     </div>
                   </div>
 
